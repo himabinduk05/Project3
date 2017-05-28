@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="com.da.beans.AppointmentBean" table="appointment_da"> 
+<id name="patientId" column="PATIENT_ID"> 
+</id> 
+<property name="slot" column="SLOT"/> 
+<property name="doctorId" column="DOCTOR_ID"/> 
+<property name="appointmentDate" column="APPOINTMENT_DATE"/> 
+<property name="couponNumber" column="COUPON_NUMBER"/> 
+<property name="appointmentBooked" column="APPOINTMENT_BOOKED  "/> 
+</class> 
+</hibernate-mapping>

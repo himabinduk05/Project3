@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping> 
+<class table="patient_das" name="com.da.beans.PatientBean"> 
+<id name="patientId" column="PATIENT_ID"> 
+</id> 
+<property name="patientName" column="PATIENT_NAME"/> 
+<property name="patientGender" column="PATIENT_GENDER"/> 
+<property name="patientAddress" column="PATIENT_ADDRESS"/> 
+<property name="patientPhone" column="PATIENT_PHONE"/>
+<property name="patientAge" column="PATIENT_AGE"/> 
+
+
+
+</class>
+</hibernate-mapping>
